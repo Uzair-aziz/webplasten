@@ -1,0 +1,83 @@
+
+/*nav*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* bakgrundfärg för hela sidan */
+
+body {
+  background-color: lightblue;
+}
+
+/*kan ordna gym och övning klass */
+
+.gym{
+	 color: red;
+}
+
+.ovningar{
+	 color: maroon;
+    text-align: center;
+}
+
+/* redigera tabel, storlek */
+
+table,th,td {
+	border: 1px solid black; 
+	border-collapse: collapse;
+    text-align: center;
+            width: 15%;
+    height: 40px;
+}
+
+
+table th {
+  background-color: navy;
+  color: white;
+ 
+}
+
+/* tabel even */ 
+
+table tr:nth-child(even) {
+  background-color: silver;
+    color: black
+
+}
+
+/* tabel odd */
+
+    table tr:nth-child(odd) {
+ background-color: gray;
+        color: white
+            
+}
+
+/* tabel klasser left och right */
+
+.left {
+        text-align: left;
+    
+}
+
+.right {
+        text-align: right;
+}
+
+p:nth-child(1){ color:darkblue; }
+    
+
+/*welcome*/
+
+.welcome {
+ 
+     font-style: italic;
+     color: maroon;
+    font-size: 80px;
+    
+}
+    
